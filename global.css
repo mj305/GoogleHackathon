@@ -1,0 +1,17 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+ul{
+    text-decoration: none;
+    font-size: .8rem;
+    color: rgb(114, 109, 109);
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}

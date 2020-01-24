@@ -1,0 +1,42 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(211, 209, 209); 
+    bottom: 0;   
+    height: 2.3rem;
+}
+
+.left-footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.right-footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-footer a{
+    padding: 1rem;
+}
+
+.right-footer a{
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+

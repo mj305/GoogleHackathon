@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#my-pic{
+    border-radius: 5%;
+    width: 2rem;
+    height: 2rem;    
+}
+
+#apps-menu{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#left-nav{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#right-nav{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#left-nav a{
+    padding: 1rem;
+}
+
+#right-nav a{
+    padding: 1rem;
+}
+
+#apps-menu{
+    padding: 1rem;
+}
+
+#my-pic{
+    padding: 1rem;
+}
+
+
+
+
