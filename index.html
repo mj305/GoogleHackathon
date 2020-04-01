@@ -10,7 +10,8 @@
     <link rel="stylesheet" type="text/css" href="logo.css">
     <link rel="stylesheet" type="text/css" href="form.css">
     <link rel="stylesheet" type="text/css" href="footer.css">
-    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/841bd16173.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <title>Google Hackathon</title>
 </head>
 
@@ -39,19 +40,25 @@
     </nav>
 
     <main id="center-page">
-        <a href="https://www.google.com/" target="blank"> <img src="googlelogo.jpg" alt="Google Logo"> </a>
+       <div id="google">
+        <p id="g" class='box wiggle'>G</p>
+        <p id="o" class='box wiggle'>o</p>
+        <p id="o2" class='box wiggle'>o</p>
+        <p id="g2" class='box wiggle'>g</p>
+        <p id="l" class='box wiggle'>l</p>
+        <p id="e" class='box wiggle'>e</p>
+       </div>
         <form>
             <div id="search-bar-container">
                 <div id="search-bar">
-                    <div class="search-icon"></div>                    
-                    <input id="search-bar-input" type="url" placeholder="Search Google or type URL">
-                  
+                    <div>    
+                        <input type="text" id="search-bar-input"  class="fas fa-search" style="font-size:20px; font-family: Arial, Helvetica, sans-serif;">                    </div>
                 </div>
             </div>
         </form>
 
         <div id="search-buttons">
-            <button type="search">Serch</button>
+            <button type="search">Google Serch</button>
             <button type="button">I'm Feeling Lucky</button>
         </div>
 

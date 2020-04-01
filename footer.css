@@ -1,13 +1,13 @@
 footer{
     display: flex;
     justify-content: space-between;
-    margin: 0;
     align-items: center;
     position: fixed;
     width: 100%;
-    background-color: rgb(211, 209, 209); 
-    bottom: 0;   
-    height: 2.3rem;
+    background-color: gainsboro; 
+    bottom: 0;
+    margin-left: -.5rem;   
+    height: 3rem;
 }
 
 .left-footer{

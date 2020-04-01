@@ -2,5 +2,53 @@
     text-align: center;
     margin: auto;
     border: none;
-    padding-top: 5rem;
+    
+}
+
+#google{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-top: -4.5rem;
+    margin-bottom: -5rem;
+}
+
+@keyframes wiggle {
+    20%  { transform: translateX(4px);  }
+    40%  { transform: translateX(-4px); }
+    60%  { transform: translateX(2px);  }
+    80%  { transform: translateX(-1px); }
+    100% { transform: translateX(0);    }
+  }
+
+.wiggle:hover {
+    animation: wiggle 1s ease-in;
+    animation-iteration-count: 1;
+  }
+
+#g{
+    color: blue;
+}
+
+#o{
+    color: red;
+}
+
+#o2{
+    color: yellow;
+}
+
+#g2{
+    color: blue;
+}
+
+#l{
+    color: green;
+}
+
+#e{
+    color: red;
 }

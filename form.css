@@ -1,14 +1,22 @@
 #search-bar-input{
     border-radius: 25px;
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
-    padding: .8rem;
+    padding: 1rem;
     margin: 1rem;
-    box-shadow: 1px 1px lightgrey;
+    box-shadow: 1.3px 1.3px lightgrey;
 }
 
 #search-buttons{
-    padding: .3rem;
-    
-
+    padding: 1rem;
 }
+
+button{
+    padding: 1rem;
+    margin: .8rem;
+    border-radius: 3%;
+    font-size: 1rem;
+    background-color: rgb(233, 233, 236);
+    color:gray;
+}
+
